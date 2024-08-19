@@ -82,7 +82,7 @@ The average monthly charges for all customers and those who have churned are qui
 
 The company has retained $11.30M in revenue, but churn has caused a loss of $2.7M. This highlights the financial impact of churn and the importance of customer retention strategies.
 
-5)Churn Rate:
+ 5)Churn Rate:
 
 The overall churn rate is 32.8%, which is relatively high and indicates that nearly one-third of the customer base has churned.
 
@@ -91,7 +91,7 @@ The overall churn rate is 32.8%, which is relatively high and indicates that nea
 The average tenure of churned customers is 18.9 months, indicating that customers are most likely to churn within the first two years of their contract.
 
 ## Recommendations
-Focus on Retaining New Customers:
+### Focus on Retaining New Customers:
 
 Since the churn rate is highest among customers with a tenure of 0-12 months, implementing targeted retention strategies for new customers is crucial. Offering incentives, personalized services, or loyalty programs early in the customer lifecycle could help reduce churn.
 
