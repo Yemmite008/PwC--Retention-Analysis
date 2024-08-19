@@ -37,6 +37,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(12, 8)) --->  Set the size of the plot
-sns.heatmap(train_df, annot = True, cmap = 'RdYlBu')
+
+sns.heatmap(data, annot = True, cmap = 'RdYlBu')
+
+![Heatmap](images/CALL CENTRE TREND - Google Chrome 8_18_2024 6_14_17 PM (1).png)
 
 
