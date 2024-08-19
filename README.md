@@ -95,19 +95,19 @@ The average tenure of churned customers is 18.9 months, indicating that customer
 
 Since the churn rate is highest among customers with a tenure of 0-12 months, implementing targeted retention strategies for new customers is crucial. Offering incentives, personalized services, or loyalty programs early in the customer lifecycle could help reduce churn.
 
-Promote Longer Contracts:
+### Promote Longer Contracts:
 
 Given that customers on month-to-month contracts are more likely to churn, encouraging customers to switch to one-year or two-year contracts could improve retention. Offering discounts or additional benefits for longer-term contracts could be an effective strategy.
 
-Analyze Pricing Strategies:
+### Analyze Pricing Strategies:
 
 Although the average monthly charges are similar for all customers and those who have churned, it's worth exploring if price sensitivity is a factor for specific customer segments. Tailoring pricing strategies or offering more flexible payment plans might help reduce churn.
 
-Enhance Customer Engagement for Male Customers:
+### Enhance Customer Engagement for Male Customers:
 
 Since male customers have a higher churn rate, especially those on month-to-month contracts, consider targeted engagement efforts such as personalized communication, tailored offers, and improving service quality for this demographic.
 
-Monitor and Improve Customer Experience:
+### Monitor and Improve Customer Experience:
 
 Given the financial impact of churn, continuously monitoring customer satisfaction and addressing pain points proactively is essential. Implementing customer feedback loops and addressing issues promptly can help in retaining customers.
 These recommendations, if implemented effectively, could help in reducing the churn rate, improving customer retention, and ultimately boosting the company's revenue.
