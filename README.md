@@ -40,6 +40,6 @@ plt.figure(figsize=(12, 8)) --->  Set the size of the plot
 
 sns.heatmap(data, annot = True, cmap = 'RdYlBu')
 
-![Heatmap](images/CALL CENTRE TREND - Google Chrome 8_18_2024 6_14_17 PM (1).png)
+![Heatmap](images/Screenshot_20240819_073045.png)
 
 
