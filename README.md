@@ -45,4 +45,59 @@ sns.heatmap(data, annot = True, cmap = 'RdYlBu')
 ## Further Analysis in Power BI
 Following the Python analysis, I extended the exploration of categorical variables such as Contract and Tenure using Power BI. Power BI's powerful visualization capabilities allowed me to dive deeper into these variables, revealing patterns and trends that are crucial for understanding customer behavior and developing effective retention strategies.
 
-![Contravt](images/Screenshot_20240819_073225.png)        ![contract](images/Screenshot_20240819_073330.png)                                                                                            
+![Contravt](images/Screenshot_20240819_073225.png)        ![contract](images/Screenshot_20240819_073330.png)      
+
+
+From the heatmap, we can observe the following recommendations based on the correlation with Churn (Yes):
+
+Tech Support and Online Security: Both TechSupport_Yes and OnlineSecurity_Yes show a negative correlation with churn. Customers who use these services are less likely to churn. This suggests that enhancing or promoting these services could be an effective strategy to retain customers.
+
+Internet Service Type: InternetService_Fiber optic shows a positive correlation with churn. Customers with fiber optic services are more likely to churn compared to those using DSL. It might be beneficial to investigate the reasons behind this trend, such as pricing or service issues, and address them.
+
+Streaming Services: StreamingMovies_Yes and StreamingTV_Yes also show a moderate negative correlation with churn. Offering attractive streaming packages or bundling them with other services could potentially reduce churn rates.
+
+Device Protection and Online Backup: Both DeviceProtection_Yes and OnlineBackup_Yes have a slight negative correlation with churn, indicating that customers who opt for these services are slightly less likely to churn. Promoting these services as value additions could help in retaining customers.
+
+These insights suggest focusing on improving service offerings and customer satisfaction in these areas to reduce churn.
+
+
+## Insights from the PowerBi Dashbuard Analysis
+
+Churn Rate by Tenure:
+
+Customers with shorter tenures (0-12 months) exhibit the highest churn rate. The churn rate significantly decreases as the tenure increases, with customers who have been with the company for more than 61 months showing the lowest churn rate.
+
+Churn Rate by Gender and Contract Type:
+
+Male customers on month-to-month contracts have the highest churn rate compared to those on one-year or two-year contracts. Female customers also show a similar trend but with slightly lower churn rates.
+Customers on month-to-month contracts have a significantly higher churn rate compared to those on one-year or two-year contracts, indicating that contract length influences customer retention.
+Average Monthly Charges:
+
+The average monthly charges for all customers and those who have churned are quite similar ($81.52 for all customers vs. $82.25 for churned customers). This suggests that higher monthly charges might contribute to churn but is not the sole factor.
+Revenue and Churn:
+
+The company has retained $11.30M in revenue, but churn has caused a loss of $2.7M. This highlights the financial impact of churn and the importance of customer retention strategies.
+Churn Rate:
+
+The overall churn rate is 32.8%, which is relatively high and indicates that nearly one-third of the customer base has churned.
+Average Tenure of Churned Customers:
+
+The average tenure of churned customers is 18.9 months, indicating that customers are most likely to churn within the first two years of their contract.
+
+## Recommendations
+Focus on Retaining New Customers:
+
+Since the churn rate is highest among customers with a tenure of 0-12 months, implementing targeted retention strategies for new customers is crucial. Offering incentives, personalized services, or loyalty programs early in the customer lifecycle could help reduce churn.
+Promote Longer Contracts:
+
+Given that customers on month-to-month contracts are more likely to churn, encouraging customers to switch to one-year or two-year contracts could improve retention. Offering discounts or additional benefits for longer-term contracts could be an effective strategy.
+Analyze Pricing Strategies:
+
+Although the average monthly charges are similar for all customers and those who have churned, it's worth exploring if price sensitivity is a factor for specific customer segments. Tailoring pricing strategies or offering more flexible payment plans might help reduce churn.
+Enhance Customer Engagement for Male Customers:
+
+Since male customers have a higher churn rate, especially those on month-to-month contracts, consider targeted engagement efforts such as personalized communication, tailored offers, and improving service quality for this demographic.
+Monitor and Improve Customer Experience:
+
+Given the financial impact of churn, continuously monitoring customer satisfaction and addressing pain points proactively is essential. Implementing customer feedback loops and addressing issues promptly can help in retaining customers.
+These recommendations, if implemented effectively, could help in reducing the churn rate, improving customer retention, and ultimately boosting the company's revenue.
