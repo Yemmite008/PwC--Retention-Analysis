@@ -46,4 +46,4 @@ sns.heatmap(data, annot = True, cmap = 'RdYlBu')
 Following the Python analysis, I extended the exploration of categorical variables such as Contract and Tenure using Power BI. Power BI's powerful visualization capabilities allowed me to dive deeper into these variables, revealing patterns and trends that are crucial for understanding customer behavior and developing effective retention strategies.
 
 ![Contravt](images/Screenshot_20240819_073225.png
-)
+)                                                                                                     ![contract](images/Screenshot_20240819_073330.png)
