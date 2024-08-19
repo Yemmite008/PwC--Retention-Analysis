@@ -13,9 +13,30 @@ df.head() --> to show the first 5 rows of my dataset
 Handling missing values is crucial for ensuring the accuracy of our analysis. I began by checking for any null values in the dataset.
 
 df.info() ---> To show information of my data if it has null values or not
+
 df.dropna() ---? to drop null values in my data 
 
 I found that some columns are not beeded for the analysis . These were handled as follows:
 
 Dropping Columns: I dropped columns that are  irrelevant to the analysis to prevent redundancy
+
 df.drop(['column_1', 'column_2', ....], axis=1, inplace=True)
+
+## Step 3: Finding Correlations
+
+With a clean dataset, I proceeded to calculate the correlation between the independent variables (like MonthlyCharges, tenure, etc.) and the target variable Churn. This helps in identifying which factors are most strongly associated with customer churn.
+
+
+data = pd.get_dummies(df) ---> Convert categorical columns to numerical values
+
+## Step 4: Plotting the Correlation Heatmap
+To better visualize the correlations among all variables, I plotted a heatmap using the Seaborn library. A heatmap provides a clear visual representation of the relationships between variables, making it easier to identify which factors are most closely associated with churn.
+
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 8)) --->  Set the size of the plot
+sns.heatmap(train_df, annot = True, cmap = 'RdYlBu')
+
+
